@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "16844",
+"creatorBuild": "16877",
 "files": {
 	"\/_\/components\/css\/_mystyles.css": {
 		"fileType": 16,
@@ -15,7 +15,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/components\/js\/_bootstrap.js",
-		"outputAbbreviatedPath": "~\/Dropbox\/intuitivePickups\/website2014\/intuitivepickups\/_\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/_\/js\/bootstrap.js",
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
@@ -25,7 +25,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/components\/js\/_myscript.js",
-		"outputAbbreviatedPath": "~\/Dropbox\/intuitivePickups\/website2014\/intuitivepickups\/_\/js\/myscript.js",
+		"outputAbbreviatedPath": "\/_\/js\/myscript.js",
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
@@ -169,7 +169,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_\/components\/less\/_mystyles.less",
-		"outputAbbreviatedPath": "~\/Dropbox\/intuitivePickups\/website2014\/intuitivepickups\/_\/css\/mystyles.css",
+		"outputAbbreviatedPath": "\/_\/css\/mystyles.css",
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
 		"relativeURLS": 0,
@@ -226,7 +226,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/components\/less\/bootstrap.less",
-		"outputAbbreviatedPath": "~\/Dropbox\/intuitivePickups\/website2014\/intuitivepickups\/_\/css\/bootstrap.css",
+		"outputAbbreviatedPath": "\/_\/css\/bootstrap.css",
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 2,
 		"relativeURLS": 0,
@@ -1519,17 +1519,136 @@
 		},
 	"\/_\/css\/mystyles.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/css\/mystyles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
+		},
+	"\/_\/js\/bootstrap.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/bootstrap-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_\/js\/myscript.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/js\/myscript.js",
+		"outputAbbreviatedPath": "\/_\/js\/min\/myscript-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/images\/backgroundOne.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958155,
+		"inputAbbreviatedPath": "\/images\/backgroundOne.jpg",
+		"outputAbbreviatedPath": "\/images\/backgroundOne.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgroundOneCropLeft.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958155,
+		"inputAbbreviatedPath": "\/images\/backgroundOneCropLeft.jpg",
+		"outputAbbreviatedPath": "\/images\/backgroundOneCropLeft.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgroundOneCropped.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 613411,
+		"inputAbbreviatedPath": "\/images\/backgroundOneCropped.jpg",
+		"outputAbbreviatedPath": "\/images\/backgroundOneCropped.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgroundOneEvenSmaller.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 747553,
+		"inputAbbreviatedPath": "\/images\/backgroundOneEvenSmaller.jpg",
+		"outputAbbreviatedPath": "\/images\/backgroundOneEvenSmaller.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/backgroundOneSmaller.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.18054e+06,
+		"inputAbbreviatedPath": "\/images\/backgroundOneSmaller.jpg",
+		"outputAbbreviatedPath": "\/images\/backgroundOneSmaller.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14918,
+		"inputAbbreviatedPath": "\/images\/logo.png",
+		"outputAbbreviatedPath": "\/images\/logo.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logoCabin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60165,
+		"inputAbbreviatedPath": "\/images\/logoCabin.png",
+		"outputAbbreviatedPath": "\/images\/logoCabin.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logoUbuntuBrightBlue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14918,
+		"inputAbbreviatedPath": "\/images\/logoUbuntuBrightBlue.png",
+		"outputAbbreviatedPath": "\/images\/logoUbuntuBrightBlue.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/~\/Dropbox\/intuitivePickups\/website2014\/intuitivepickups\/_\/css\/bootstrap.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/~\/Dropbox\/intuitivePickups\/website2014\/intuitivepickups\/_\/css\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		}
